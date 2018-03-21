@@ -11,5 +11,6 @@ public class JedisTransaction {
         transaction.sadd("transaction", "m2");
         transaction.exec();
         System.out.println(jedis.smembers("transaction"));
+        //TODO:
     }
 }
